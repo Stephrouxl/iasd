@@ -37,7 +37,7 @@ dag = DAG('petrol',
 #    source_object.download_file(data_path)
 
 def download():
-    data = pd.read_csv('/home/jean/Documents/Cours_steph/iasd/dags/iris.csv')
+    data = pd.read_csv('./iris.csv')
 
 
 # let's start with a dummy task
