@@ -4,7 +4,7 @@
 lancer `airflow webserver &` et `airflow scheduler &`
 et sur le navigateur : localhost:8080
 
-Qu'on met un nouveau .py ici par exemple code.py (qui charge le dataset iris) dans /dags, vérifier que celui ci apparait dans airflow en local (c'est le nom qui est à l'intérieur du dags qui s'affiche, pas le nom du fichier)
+Quand met un nouveau .py ici par exemple code.py (qui charge le dataset iris) dans /dags, vérifier que celui ci apparait dans airflow en local (c'est le nom qui est à l'intérieur du dags qui s'affiche, pas le nom du fichier)
 
 ## En remote :
 lancer une instance
